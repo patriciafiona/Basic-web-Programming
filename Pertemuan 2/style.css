@@ -1,0 +1,22 @@
+body {
+	font-family:Comic Sans MS;
+	color:black;
+	padding:10pt;
+}
+
+h1{
+	font-weight:bold;
+	color:black;
+	text-align:center;
+}
+
+div.menu {
+	text-align: center;
+	font-size: 14;
+}
+
+div.footer {
+	text-align:center;
+	font-size:16;
+	color:black;
+}

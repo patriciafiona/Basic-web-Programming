@@ -1,0 +1,103 @@
+body{
+	border-top:5px solid #4cb2e5 ;
+	margin:0 auto;
+	font-family: arial;
+	width:900px;
+}
+
+#top{
+	width:900px;
+	margin:auto;
+}
+
+/*KHUSUS BAGIAN MENU*/
+#menu{
+	float:left;
+	margin-top:60px;
+}
+
+#menu ul{
+	margin:0;
+	padding:0;
+}
+
+#menu ul li{
+	list-style:none;
+	display:inline-block;
+	margin-right:20px;
+}
+
+#menu ul li a{
+	color: #333333;
+	text-decoration:none;
+
+}
+#menu ul li a:hover{
+	border-bottom:5px solid;
+}
+
+/*KHUSUS BAGIAN LOGO*/
+#logo{
+	display:inline-block;
+	width:250px;
+	float:right;
+	margin-top:30px;
+
+}
+/*KHUSUS BAGIAN BANNER*/
+#banner{
+	 clear:both;
+	 width:900px;
+	 margin:30px 0 10px 0;
+	 padding:30px 0 10px 0;
+	 border-bottom:1px solid black ;
+	 
+}
+/*KHUSUS BAGIAN TENGAH*/
+#tengah{
+	width:900px;
+	margin:40px;
+}
+
+.box{
+ width:230px;
+ font-family: arial;
+ color: #666666;
+ font-size:12px;	
+ float:left;
+ margin:22px;
+	}
+	
+h3{
+	font-family: arial;
+	font-size:14px;
+	color:#666666;
+}
+
+/*KHUSUS BAGIAN FOOTER*/
+#footer{
+	font-family: arial;
+	font-size:12px;
+	color:#666666;
+	border-bottom:5px solid #4cb2e5 ;
+	border-top:1px solid #666666 ;
+	clear: both;
+}
+
+/*KHUSUS BAGIAN INPUT*/
+.input [type="text"]{
+	background: #EEEEEE;
+	width:250;
+	border:none;
+	padding: 8px 16px;
+	box-shadow: 2px 2px 2 px #33 inset;
+	
+}
+
+.input [type="image"]{
+	border:none;
+	float:right;
+	margin:0;
+	padding: 8px 0;
+	
+}
